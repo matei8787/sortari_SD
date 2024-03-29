@@ -170,7 +170,7 @@ namespace shell_sort
 }
 namespace stalin_sort ///dar chiar sa mearga
 {
-    const int N = 1e3+5;
+    const int N = 1e6+5;
     int vectorul[N];
     int n;
     void sterge_element(int x)
@@ -413,4 +413,5 @@ int main()
         nr = nr + (char)(op + '0');
     string in = "test" + nr + ".in";
     testeaza(in);
+    return 0;
 }
